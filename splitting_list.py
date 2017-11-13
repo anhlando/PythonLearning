@@ -2,7 +2,8 @@
 #program to split a list of values into a string of child items, separated by ',' and a space
 import copy
 
-def split_List(list):
+
+def split_list(list):
     result = ''
     i = 1
     result += list[0]
@@ -30,7 +31,7 @@ while True:
 print('Your input list is: ', end='')
 print(input_List)
 print('Splitting input list into: ')
-print(split_List(input_List))
+print(split_list(input_List))
 
 
 
